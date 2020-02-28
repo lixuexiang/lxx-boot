@@ -2,7 +2,7 @@ package com.lxx.model;
 
 import java.util.Date;
 
-public class SysUsers {
+public class SysUsers extends BaseBean {
     private Long id;
 
     private String username;
