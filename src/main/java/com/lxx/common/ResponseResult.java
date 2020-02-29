@@ -1,4 +1,4 @@
-package com.ke.common;
+package com.lxx.common;
 
 public class ResponseResult<T> {
     // 未登录
