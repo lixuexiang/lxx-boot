@@ -1,7 +1,9 @@
 package com.lxx.dao;
 
 import com.lxx.model.Menu;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface MenuMapper {
     int deleteByPrimaryKey(Long id);
 
