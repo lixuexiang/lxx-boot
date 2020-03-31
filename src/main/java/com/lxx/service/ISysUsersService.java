@@ -1,4 +1,4 @@
-package com.ke.service;
+package com.lxx.service;
 
 public interface ISysUsersService {
 }

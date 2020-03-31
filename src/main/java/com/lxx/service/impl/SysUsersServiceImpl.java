@@ -1,6 +1,6 @@
-package com.ke.service.impl;
+package com.lxx.service.impl;
 
-import com.ke.service.ISysUsersService;
+import com.lxx.service.ISysUsersService;
 import org.springframework.stereotype.Service;
 
 @Service
