@@ -1,6 +1,9 @@
 package com.lxx.dao;
 
 import com.lxx.model.User;
+import com.sun.javafx.collections.MappingChange;
+
+import java.util.Map;
 
 public interface UserMapper {
     int deleteByPrimaryKey(Long id);
@@ -14,4 +17,6 @@ public interface UserMapper {
     int updateByPrimaryKeySelective(User record);
 
     int updateByPrimaryKey(User record);
+
+    User getUserByName(Map<String,Object> map);
 }
